@@ -16,3 +16,7 @@ max_line_length = off
 [*.hs]
 indent_style = space
 indent_size = 2
+
+[{*.cabal,cabal.project}]
+indent_style = space
+indent_size = 2
