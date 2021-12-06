@@ -13,7 +13,7 @@ spec = describe "Exercise_2_3" $ do
     add3 4 `shouldBe` 7  
 
 add :: Int -> Int -> Int
-add = myCurry (\(x, y) -> x + y)
+add = myCurry $ \(x, y) -> x + y
 
 add3 :: Int -> Int
 add3 = add 3
