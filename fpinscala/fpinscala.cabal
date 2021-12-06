@@ -11,6 +11,7 @@ library
   exposed-modules:
     Exercise_2_1
     Exercise_2_2
+    Exercise_2_3
   build-depends:
       array >=0.5 && <0.6
     , base >=4.0 && <5.0
@@ -24,6 +25,7 @@ test-suite spec
   other-modules:
     Exercise_2_1_Spec
     Exercise_2_2_Spec
+    Exercise_2_3_Spec
   build-depends:
       array
     , base
