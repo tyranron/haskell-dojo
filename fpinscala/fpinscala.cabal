@@ -13,6 +13,7 @@ library
     Exercise_2_2
     Exercise_2_3
     Exercise_2_4
+    Exercise_2_5
   build-depends:
       array >=0.5 && <0.6
     , base >=4.0 && <5.0
@@ -28,6 +29,7 @@ test-suite spec
     Exercise_2_2_Spec
     Exercise_2_3_Spec
     Exercise_2_4_Spec
+    Exercise_2_5_Spec
   build-depends:
       array
     , base
