@@ -10,8 +10,11 @@ library
   hs-source-dirs: src
   exposed-modules:
     Exercise_2_1
+    Exercise_2_2
   build-depends:
-      base >=4.0 && <5.0
+      array >=0.5 && <0.6
+    , base >=4.0 && <5.0
+    , lens >=5.1 && <5.2
 
 test-suite spec
   type: exitcode-stdio-1.0
@@ -20,9 +23,11 @@ test-suite spec
   main-is: Spec.hs
   other-modules:
     Exercise_2_1_Spec
+    Exercise_2_2_Spec
   build-depends:
-      base
+      array
+    , base
     , fpinscala
-    , hspec >=2.9 && <3.0
+    , hspec >=2.9 && <2.10
   build-tool-depends:
-      hspec-discover:hspec-discover >=2.9 && <3.0
+      hspec-discover:hspec-discover >=2.9 && <2.10
